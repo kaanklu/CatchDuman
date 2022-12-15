@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Catch_Duman" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2022-10-26 at 23.11.51" translatesAutoresizingMaskIntoConstraints="NO" id="oAd-L7-0JR">
+                                <rect key="frame" x="16" y="242" width="123" height="127"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="127" id="6X0-IV-bnv"/>
+                                    <constraint firstAttribute="width" constant="123" id="IQJ-Ek-5FA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2022-10-26 at 23.11.51" translatesAutoresizingMaskIntoConstraints="NO" id="UAJ-69-liA">
+                                <rect key="frame" x="135" y="242" width="123" height="127"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2022-10-26 at 23.11.51" translatesAutoresizingMaskIntoConstraints="NO" id="gX5-Na-UOQ">
+                                <rect key="frame" x="254" y="242" width="123" height="127"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="S1Y-hY-KnJ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2022-10-26 at 23.11.51" translatesAutoresizingMaskIntoConstraints="NO" id="MAh-Er-ZMf">
+                                <rect key="frame" x="16" y="369" width="123" height="127"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="127" id="Mx7-8n-qol"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2022-10-26 at 23.11.51" translatesAutoresizingMaskIntoConstraints="NO" id="9jf-xK-tKd">
+                                <rect key="frame" x="135" y="369" width="123" height="127"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2022-10-26 at 23.11.51" translatesAutoresizingMaskIntoConstraints="NO" id="p2u-Dv-PAa">
+                                <rect key="frame" x="254" y="369" width="123" height="127"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2022-10-26 at 23.11.51" translatesAutoresizingMaskIntoConstraints="NO" id="fCi-2p-qPL">
+                                <rect key="frame" x="16" y="492" width="123" height="127"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="127" id="MCQ-gR-JHA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2022-10-26 at 23.11.51" translatesAutoresizingMaskIntoConstraints="NO" id="bCW-nS-8th">
+                                <rect key="frame" x="135" y="492" width="123" height="127"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2022-10-26 at 23.11.51" translatesAutoresizingMaskIntoConstraints="NO" id="vNX-vo-NTl">
+                                <rect key="frame" x="254" y="492" width="123" height="127"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highest Score : 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otr-pr-kgo">
+                                <rect key="frame" x="131" y="747" width="165" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="7fM-0Z-ROR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time : 10" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75X-hU-yjO">
+                                <rect key="frame" x="138.33333333333334" y="91" width="116.33333333333334" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="6" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Scoreboard : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXA-NB-jiu">
+                                <rect key="frame" x="98" y="160" width="196" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="TBf-xX-qy7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fCi-2p-qPL" firstAttribute="bottom" secondItem="bCW-nS-8th" secondAttribute="bottom" id="0ot-Cw-2F8"/>
+                            <constraint firstItem="kXA-NB-jiu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="3Ot-iC-fkk"/>
+                            <constraint firstItem="kXA-NB-jiu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4hd-Az-upy"/>
+                            <constraint firstItem="gX5-Na-UOQ" firstAttribute="trailing" secondItem="p2u-Dv-PAa" secondAttribute="trailing" id="ByD-BP-CCc"/>
+                            <constraint firstItem="9jf-xK-tKd" firstAttribute="leading" secondItem="bCW-nS-8th" secondAttribute="leading" id="DE4-cu-L9h"/>
+                            <constraint firstItem="9jf-xK-tKd" firstAttribute="bottom" secondItem="p2u-Dv-PAa" secondAttribute="bottom" id="Dyq-19-OQ2"/>
+                            <constraint firstItem="75X-hU-yjO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="ESf-Td-c7z"/>
+                            <constraint firstItem="gX5-Na-UOQ" firstAttribute="leading" secondItem="p2u-Dv-PAa" secondAttribute="leading" id="Fu6-1r-MQI"/>
+                            <constraint firstItem="oAd-L7-0JR" firstAttribute="trailing" secondItem="MAh-Er-ZMf" secondAttribute="trailing" id="JuJ-0i-s9l"/>
+                            <constraint firstItem="bCW-nS-8th" firstAttribute="top" secondItem="vNX-vo-NTl" secondAttribute="top" id="KjZ-nv-Dlt"/>
+                            <constraint firstItem="p2u-Dv-PAa" firstAttribute="leading" secondItem="vNX-vo-NTl" secondAttribute="leading" id="OGe-Uc-LkD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="otr-pr-kgo" secondAttribute="trailing" constant="97" id="OXy-FF-xjG"/>
+                            <constraint firstItem="kXA-NB-jiu" firstAttribute="centerX" secondItem="UAJ-69-liA" secondAttribute="centerX" id="PEr-lA-IaW"/>
+                            <constraint firstItem="UAJ-69-liA" firstAttribute="top" secondItem="gX5-Na-UOQ" secondAttribute="top" id="TOa-ih-eeR"/>
+                            <constraint firstItem="gX5-Na-UOQ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="TUT-kS-XAQ"/>
+                            <constraint firstItem="bCW-nS-8th" firstAttribute="bottom" secondItem="vNX-vo-NTl" secondAttribute="bottom" id="U9R-2g-o9J"/>
+                            <constraint firstItem="oAd-L7-0JR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XOh-7f-4Xy"/>
+                            <constraint firstItem="UAJ-69-liA" firstAttribute="leading" secondItem="9jf-xK-tKd" secondAttribute="leading" id="YQa-B3-nVs"/>
+                            <constraint firstItem="MAh-Er-ZMf" firstAttribute="top" secondItem="9jf-xK-tKd" secondAttribute="top" id="YoG-Bc-2GX"/>
+                            <constraint firstItem="UAJ-69-liA" firstAttribute="bottom" secondItem="gX5-Na-UOQ" secondAttribute="bottom" id="ZBw-Ty-Qo4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="otr-pr-kgo" secondAttribute="bottom" constant="29" id="cWZ-XK-d4P"/>
+                            <constraint firstItem="oAd-L7-0JR" firstAttribute="bottom" secondItem="UAJ-69-liA" secondAttribute="bottom" id="cof-Vt-5bA"/>
+                            <constraint firstItem="MAh-Er-ZMf" firstAttribute="leading" secondItem="fCi-2p-qPL" secondAttribute="leading" id="e6c-v9-AA5"/>
+                            <constraint firstItem="fCi-2p-qPL" firstAttribute="top" secondItem="bCW-nS-8th" secondAttribute="top" id="eOf-Zp-8VY"/>
+                            <constraint firstItem="oAd-L7-0JR" firstAttribute="top" secondItem="kXA-NB-jiu" secondAttribute="bottom" constant="40" id="eoZ-Tj-cUj"/>
+                            <constraint firstItem="MAh-Er-ZMf" firstAttribute="trailing" secondItem="fCi-2p-qPL" secondAttribute="trailing" id="fYq-7K-BUQ"/>
+                            <constraint firstItem="9jf-xK-tKd" firstAttribute="trailing" secondItem="bCW-nS-8th" secondAttribute="trailing" id="hHX-rL-ApN"/>
+                            <constraint firstItem="9jf-xK-tKd" firstAttribute="top" secondItem="p2u-Dv-PAa" secondAttribute="top" id="hPe-6i-vRv"/>
+                            <constraint firstItem="UAJ-69-liA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="hzs-hE-cEo"/>
+                            <constraint firstItem="oAd-L7-0JR" firstAttribute="top" secondItem="UAJ-69-liA" secondAttribute="top" id="iKP-EK-2KL"/>
+                            <constraint firstItem="75X-hU-yjO" firstAttribute="centerX" secondItem="kXA-NB-jiu" secondAttribute="centerX" id="iXf-8s-zVW"/>
+                            <constraint firstItem="UAJ-69-liA" firstAttribute="trailing" secondItem="9jf-xK-tKd" secondAttribute="trailing" id="lDH-EA-Hgz"/>
+                            <constraint firstItem="otr-pr-kgo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="131" id="oIb-Jk-EcQ"/>
+                            <constraint firstItem="kXA-NB-jiu" firstAttribute="top" secondItem="75X-hU-yjO" secondAttribute="bottom" constant="33" id="pX8-l6-tj7"/>
+                            <constraint firstItem="MAh-Er-ZMf" firstAttribute="bottom" secondItem="9jf-xK-tKd" secondAttribute="bottom" id="qar-2b-Eqm"/>
+                            <constraint firstItem="p2u-Dv-PAa" firstAttribute="trailing" secondItem="vNX-vo-NTl" secondAttribute="trailing" id="rC2-fH-RKH"/>
+                            <constraint firstItem="MAh-Er-ZMf" firstAttribute="top" secondItem="oAd-L7-0JR" secondAttribute="bottom" id="w2b-sq-99Y"/>
+                            <constraint firstAttribute="bottom" secondItem="fCi-2p-qPL" secondAttribute="bottom" constant="233" id="zhM-vd-GyI"/>
+                            <constraint firstItem="oAd-L7-0JR" firstAttribute="leading" secondItem="MAh-Er-ZMf" secondAttribute="leading" id="zxH-T5-qGm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="highestscoreLabel" destination="otr-pr-kgo" id="39s-Yx-aEU"/>
+                        <outlet property="photo1" destination="oAd-L7-0JR" id="Koe-ef-9lk"/>
+                        <outlet property="photo2" destination="UAJ-69-liA" id="MDi-rW-amL"/>
+                        <outlet property="photo3" destination="gX5-Na-UOQ" id="9YG-v6-bhF"/>
+                        <outlet property="photo4" destination="MAh-Er-ZMf" id="1Kx-KA-vzM"/>
+                        <outlet property="photo5" destination="9jf-xK-tKd" id="pYm-nH-Vyy"/>
+                        <outlet property="photo6" destination="p2u-Dv-PAa" id="c9L-Bf-6cx"/>
+                        <outlet property="photo7" destination="fCi-2p-qPL" id="ynR-je-Zb0"/>
+                        <outlet property="photo8" destination="bCW-nS-8th" id="zqe-Cd-uNA"/>
+                        <outlet property="photo9" destination="vNX-vo-NTl" id="D5F-ap-1DI"/>
+                        <outlet property="scoreboardLabel" destination="kXA-NB-jiu" id="DfE-p7-l7K"/>
+                        <outlet property="timeLabel" destination="75X-hU-yjO" id="FIU-EJ-NRr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="WhatsApp Image 2022-10-26 at 23.11.51" width="848" height="610"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
