@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timeFuction), userInfo: nil, repeats: true)
         
-        dumantimer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(hideDuman), userInfo: nil, repeats: true)
+        dumantimer = Timer.scheduledTimer(timeInterval: 0.4, target: self, selector: #selector(hideDuman), userInfo: nil, repeats: true)
         
         hideDuman()
         
