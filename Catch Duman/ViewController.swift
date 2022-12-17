@@ -127,7 +127,7 @@ class ViewController: UIViewController {
                 self.score = 0
                 self.counter = 10
                 self.scoreboardLabel.text = "Score : \(self.score)"
-                self.timeLabel.text = "(Time : \(self.counter)"
+                self.timeLabel.text = "Time : \(self.counter)"
                 self.timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.timeFuction), userInfo: nil, repeats: true)
                 
                 self.dumantimer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(self.hideDuman), userInfo: nil, repeats: true)
